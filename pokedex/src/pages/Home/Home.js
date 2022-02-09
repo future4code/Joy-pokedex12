@@ -10,7 +10,7 @@ const Home = () => {
     console.log(teste)
     return (
         <div>
-            <h1>Home</h1>
+            <h1>Pokedex</h1>
         </div>
     )
 }
