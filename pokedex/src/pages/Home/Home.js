@@ -1,12 +1,13 @@
-import {React, useState} from 'react';
-import { useGetPokeInfo } from '../../hooks/useGetPokeInfo';
+import {React, useContext} from 'react';
+import { GlobalContext } from '../../Global/GlobalContext';
 
 
 
 
 const Home = () => {
-    const [teste] = useGetPokeInfo("https://pokeapi.co/api/v2/pokemon?limit=20")  
+    const {teste, teste2} = useContext(GlobalContext)
 
+    console.log(teste)
     return (
         <div>
             <h1>Home</h1>
