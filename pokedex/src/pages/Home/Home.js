@@ -1,6 +1,11 @@
 import {React, useContext} from 'react';
 import { GlobalContext } from '../../Global/GlobalContext';
+import styled from 'styled-components';
 
+const HomeContainer = styled.div`
+height: 95vh;
+
+`
 
 
 
@@ -10,7 +15,7 @@ const Home = () => {
     console.log(teste)
     return (
         <div>
-            <h1>Pokedex</h1>
+            <h1>Home</h1>
         </div>
     )
 }

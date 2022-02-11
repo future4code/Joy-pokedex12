@@ -6,6 +6,8 @@ import DetalhesPokemon from '../pages/DetalhesPokemon/DetalhesPokemon';
 import PokemonList from '../constants/PokemonList.js'
 import Pagination from '../constants/Pagination.js'
 import axios from 'axios'
+import Header from '../components/Header.js';
+import Footer from '../components/Footer.js';
 
 
 
@@ -48,6 +50,7 @@ function Router() {
   
     <>
       <BrowserRouter>
+      <Header />
         <Switch>
             <Route exact path={"/"}>
               <Home />
@@ -66,6 +69,7 @@ function Router() {
         gotoNextPage={nextPageURL ? gotoNextPage :  null}
         gotoPrevPage={prevPageURL ? gotoPrevPage : null}
       /> 
+      <Footer/>
     </>
   );
 }
