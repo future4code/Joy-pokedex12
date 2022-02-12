@@ -62,6 +62,7 @@ function Router() {
             <DetalhesPokemon/>
           </Route>
         </Switch>
+        <Footer/>
       </BrowserRouter>
 
       <PokemonList pokemon = {pokemon} />
@@ -69,7 +70,6 @@ function Router() {
         gotoNextPage={nextPageURL ? gotoNextPage :  null}
         gotoPrevPage={prevPageURL ? gotoPrevPage : null}
       /> 
-      <Footer/>
     </>
   );
 }
