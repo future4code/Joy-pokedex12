@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { Input } from '@chakra-ui/react';
-import colorFooter from '../assets/colorFooter.png';
-import pokeball from '../assets/pokeball.png'
+import colorFooter from '../../assets/colorFooter.png'
+import pokeball from '../../assets/pokeball.png'
 
 const FooterContainer = styled.div`
 position: fixed;

@@ -6,8 +6,7 @@ import DetalhesPokemon from '../pages/DetalhesPokemon/DetalhesPokemon';
 import PokemonList from '../constants/PokemonList.js'
 import Pagination from '../constants/Pagination.js'
 import axios from 'axios'
-import Header from '../components/Header.js';
-import Footer from '../components/Footer.js';
+
 
 
 
@@ -18,6 +17,7 @@ function Router() {
   const [nextPageURL, setNextPageUrl] = useState();
   const [prevPageURL, setPrevPageUrl] = useState();
   const [loading, setLoading] = useState(true);
+
 
   useEffect(() =>{
     setLoading(true)
@@ -50,7 +50,6 @@ function Router() {
   
     <>
       <BrowserRouter>
-      <Header />
         <Switch>
             <Route exact path={"/"}>
               <Home />
@@ -62,7 +61,6 @@ function Router() {
             <DetalhesPokemon/>
           </Route>
         </Switch>
-        <Footer/>
       </BrowserRouter>
 
       <PokemonList pokemon = {pokemon} />
