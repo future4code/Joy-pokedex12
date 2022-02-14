@@ -3,7 +3,7 @@
 Nome dos integrantes: 
 - Jonathan de Andrade Souza
 - Aline Paulino Martins
-- Pessoa 3
+- Bruna Alvarez Fernandes 
 
 Link do Surge: www.link.com.br
 
