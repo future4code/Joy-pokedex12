@@ -1,9 +1,9 @@
 # POKEDEX
 
 Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+- Jonathan de Andrade Souza
+- Aline Paulino Martins
+- Bruna Alvarez Fernandes 
 
 Link do Surge: www.link.com.br
 
